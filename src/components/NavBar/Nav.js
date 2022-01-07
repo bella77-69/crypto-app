@@ -7,6 +7,7 @@ const Nav = () => {
         <div className='nav'>
             <div className='nav-logo'>
                 <Link to ='/' className='nav-link'>Home</Link>
+                <Link to ='/coins' className='nav-link'>Coins</Link>
                 <Link to ='/currencies' className='nav-link'>Crypo Currencies</Link>
                 <Link to ='/exchanges' className='nav-link'>Exchanges</Link>
             </div>

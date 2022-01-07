@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router >
-      <Nav />
+    
       <Switch>
       <header className="App-header">
     

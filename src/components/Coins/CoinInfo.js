@@ -15,6 +15,7 @@ function CoinInfo() {
     Axios.get(
 `https://api.coinstats.app/public/v1/coins?skip=0&limit=100¤cy=INR`
     ).then((res) => {
+        console.log(res)
       setCrypto(res.data.coins);
     });
   }, []);
@@ -72,7 +73,7 @@ function CoinInfo() {
         </tbody>
       </table>
       <Exchange crypo={crypto}/>
-
+        
     </div>
    
   );
