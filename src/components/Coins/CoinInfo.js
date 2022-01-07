@@ -1,8 +1,9 @@
 
-import Axios from "axios";
-import { useEffect, useState } from "react";
+import Axios from 'axios';
+import { useEffect, useState } from 'react';
 import './Coins.scss'
-import Exchange from "../Exchange/Exchange";
+import Exchange from '../Exchange/Exchange';
+
 
 function CoinInfo() {
  
@@ -49,7 +50,7 @@ function CoinInfo() {
             .map((val, id) => {
               return (
                 <>
-                  <tr id={id}>
+                  <tr key={val.id}>
                     <td className="rank">{val.rank}</td>
                     <td className="logo">
                       <a href={val.websiteUrl}>
@@ -71,6 +72,7 @@ function CoinInfo() {
         </tbody>
       </table>
       <Exchange crypo={crypto}/>
+
     </div>
    
   );

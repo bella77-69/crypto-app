@@ -1,12 +1,11 @@
 import React from 'react';
 
-function Header() {
-    
+const Home = () => {
     return (
         <div>
-            Crypo App
+            
         </div>
     );
-}
+};
 
-export default Header;
+export default Home;

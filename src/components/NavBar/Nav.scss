@@ -1,0 +1,14 @@
+.nav {
+    margin: 0, auto;
+
+    &-logo {
+    // width: 100%;
+    display: flex;
+    }
+
+    &-link {
+    color: white;
+    padding-right: 1rem;
+    text-decoration: none;
+    }
+}
